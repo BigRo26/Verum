@@ -1,0 +1,15 @@
+# Python virtual environment - regenerate with: pip install -r requirements.txt
+venv/
+__pycache__/
+*.pyc
+
+# Never commit secrets
+.env
+*.env
+
+# Generated reports from local testing
+*.pdf
+
+# OS cruft
+.DS_Store
+Thumbs.db
